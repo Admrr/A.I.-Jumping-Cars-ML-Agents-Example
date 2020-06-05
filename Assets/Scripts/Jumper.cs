@@ -5,7 +5,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using UnityEngine;
 
-public class Jumper : MonoBehaviour
+public class Jumper : Agent
 {
     [SerializeField] private float jumpForce;
     [SerializeField] private KeyCode jumpKey;
